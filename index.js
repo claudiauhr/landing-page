@@ -7,6 +7,13 @@ const rightArrow = window.document.getElementById("right-arrow")
 function RollToRight() {
     Leo.style = "display:none"
     Bruna.style = "display:flex"
-    leftArrow.style = "display:flex"
     rightArrow.style = "display:none"
+    leftArrow.style = "display:flex; margin-top:55px"
+}
+
+function RollToLeft() {
+    Leo.style = "display:flex"
+    Bruna.style = "display:none"
+    rightArrow.style = "display:none"
+    leftArrow.style = "display:flex; margin-top:55px"
 }
