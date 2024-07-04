@@ -61,15 +61,35 @@
     color: #247BA0;
 }
 
-#carrossel{
+#carousel{
     background-color: #247BA0;
     padding: 50px;
-
 }
 
-#carrossel-title{
+#carousel-title{
     color: white;
     text-align: center;
     font-size: 25px;
-    
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#left-arrow{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.arrow{
+    margin-top: 55%;
 }
